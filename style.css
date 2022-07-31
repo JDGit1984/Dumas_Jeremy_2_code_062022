@@ -811,6 +811,11 @@ h1 {
     line-height: 14px;
 }
 
+.mention{
+    font-size: 16px;
+    font-weight: 600;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
