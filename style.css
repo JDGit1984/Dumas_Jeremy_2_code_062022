@@ -388,6 +388,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .footer-return{
+        display: none;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -761,11 +764,13 @@ h1 {
 .btn-atomic-tangerine {
     background: #354576;
     color: #FFFFFF!important;
+    transform: scale(1);
+    transition: transform 0.5s;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
     color: #FFFFFF!important;
+    transform: scale(1.2);
 }
 
 .ltc-white {
@@ -1041,6 +1046,12 @@ h1 {
     }
     .col-sm-6{
         margin-bottom: 20px;
+    }
+    .dash{
+        visibility: hidden;
+    }
+    .mention{
+        margin-bottom: 16px;
     }
 }
 
